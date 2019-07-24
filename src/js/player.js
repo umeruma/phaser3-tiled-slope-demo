@@ -58,7 +58,7 @@ export default class Player {
 
       this.sprite.anims.play('turn');
     }
-    console.log(this.sprite.body.onSlope())
+    
     if ((this.cursors.up.isDown || this.cursors.space.isDown)
       && (this.sprite.body.onSlope() || this.sprite.body.onFloor())
       ) {
