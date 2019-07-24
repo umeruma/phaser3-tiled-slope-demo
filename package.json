@@ -1,0 +1,32 @@
+{
+  "name": "phaser3_tiled_slope_demo",
+  "private": true,
+  "version": "0.1.0",
+  "description": "",
+  "main": "docs/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/index.pug --open -d docs/",
+    "prebuild": "rm -rf docs",
+    "build": "parcel build src/index.pug -d docs/ --public-url ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://umeruma@github.com/umeruma/phaser3-tiled-slope-demo.git"
+  },
+  "author": "umeruma",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/umeruma/phaser3-tiled-slope-demo/issues"
+  },
+  "homepage": "https://github.com/umeruma/phaser3-tiled-slope-demo#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3",
+    "pug": "^2.0.4",
+    "stylus": "^0.54.5"
+  },
+  "dependencies": {
+    "phaser": "^3.18.1",
+    "phaser3-tiled-slope": "file:./phaser3-tiled-slope"
+  }
+}
