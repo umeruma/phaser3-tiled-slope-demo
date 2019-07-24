@@ -1,0 +1,3 @@
+[submodule "phaser3-tiled-slope"]
+	path = phaser3-tiled-slope
+	url = https://umeruma@github.com/umeruma/phaser3-tiled-slope.git
