@@ -22,7 +22,7 @@
   "homepage": "https://github.com/umeruma/phaser3-tiled-slope-demo#readme",
   "devDependencies": {
     "parcel-bundler": "^1.12.3",
-    "pug": "^2.0.4",
+    "pug": "^3.0.1",
     "stylus": "^0.54.5"
   },
   "dependencies": {
